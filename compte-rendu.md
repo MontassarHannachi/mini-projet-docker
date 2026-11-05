@@ -68,9 +68,9 @@ Symptôme : `curl` échoue. Cause racine : fichier `appp.py` inexistant dans `CM
 
 ## Annexe : préparation de l'environnement
 
-![apt update](docs/annexe-01-apt-update.png)
-![Installation de Docker, Git et Python](docs/annexe-02-install-docker-git-python.png)
-![Création du dossier](docs/annexe-03-creation-dossier.png)
-![Premier docker build (flask-app:1.0.0)](docs/annexe-04-docker-build-flask-app.png)
-![Git init et premier commit](docs/annexe-05-git-init-commit.png)
-![docker login](docs/annexe-06-docker-login.png)
+![apt update](docs/01-apt-update.png)
+![Installation de Docker, Git et Python](docs/02-installation-docker-git-python.png)
+![Création du dossier](docs/03-creation-dossier.png)
+![Premier docker build (flask-app:1.0.0)](docs/04-docker-build-flask-app.png)
+![Git init et premier commit](docs/05-git-init-commit.png)
+![docker login](docs/06-docker-login.png)
