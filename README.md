@@ -40,7 +40,7 @@ Remplacer `8082` par un autre port si celui-ci est déjà utilisé sur votre mac
 
 ## Construire l'image soi-même
 
-    git clone <URL_DU_DEPOT>
+    git clone https://github.com/MontassarHannachi/mini-projet-docker.git
     cd mini-projet-docker
     docker build -t montassar01/app:1.0.1 .
 
