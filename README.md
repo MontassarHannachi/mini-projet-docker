@@ -54,26 +54,6 @@ Remplacer `8082` par un autre port si celui-ci est déjà utilisé sur votre mac
     docker rm -f monapp
 
 
-## Préparation de l'environnement (captures)
-
-### 1. Mise à jour des paquets
-![sudo apt update](docs/01-apt-update.png)
-
-### 2. Installation de Docker, Git et Python
-![Installation de docker.io, git et python3](docs/02-installation-docker-git-python.png)
-
-### 3. Création du dossier du projet
-![Création du dossier mini-projet-docker](docs/03-creation-dossier.png)
-
-### 4. Construction de la première image
-![docker build de flask-app:1.0.0](docs/04-docker-build-flask-app.png)
-
-### 5. Initialisation du dépôt Git
-![git init, add et commit](docs/05-git-init-commit.png)
-
-### 6. Connexion à Docker Hub
-![docker login](docs/06-docker-login.png)
-
 ## Résultat attendu
 
 - `curl http://localhost:8082` affiche le message défini par `APP_MESSAGE` (ici `Bonjour !`).
