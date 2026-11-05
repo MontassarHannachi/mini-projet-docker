@@ -47,3 +47,23 @@ Remplacer `8082` par un autre port si celui-ci est déjà utilisé sur votre mac
 ## Arrêter et supprimer le conteneur
 
     docker rm -f monapp
+
+## Captures d'écran
+
+### Construction de l'image
+![Construction de l'image](docs/build.png)
+
+### Lancement du conteneur
+![Lancement du conteneur](docs/run.png)
+
+### Configuration par variable d'environnement
+![Message configuré par variable](docs/curl-variable.png)
+
+### Panne et diagnostic
+![Diagnostic d'une panne](docs/panne-diagnostic.png)
+
+### Observation du cache
+![Cache et couches de l'image](docs/cache-history.png)
+
+### Images publiées sur Docker Hub
+![Tags sur Docker Hub](docs/docker-hub-tags.png)
