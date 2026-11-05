@@ -2,6 +2,8 @@
 
 Image : `montassar01/app` (1.0.0, 1.0.1, 1.0) | Dépôt : https://github.com/MontassarHannachi/mini-projet-docker
 
+Projet réalisé seul (sans binôme).
+
 ## Réponses aux questions
 
 **Étape 0.** Le Dockerfile décrit comment construire l'application : il dépend du code et doit évoluer avec lui. Les versionner ensemble garantit qu'un commit donné produit toujours la même image.
