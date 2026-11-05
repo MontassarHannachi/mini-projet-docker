@@ -20,7 +20,7 @@ Projet réalisé seul (sans binôme).
 
 **Étape 6.** Un tag de version précise (`1.0.0`) doit rester immuable : des déploiements et des collègues comptent sur lui pour obtenir exactement la même image. Seuls les alias (`1.0`) sont faits pour être déplacés.
 
-**Étape 7.** Informations manquantes lors du premier essai : à compléter après le test du README par une personne extérieure.
+**Étape 7.** Travaillant seul, je n'ai pas pu faire tester le README par un autre binôme. J'ai donc simulé le test : suppression des images locales (`docker rmi`), puis lancement de l'application en suivant uniquement la commande de la section « Lancer l'application » du README. Informations qui manquaient lors de ce premier essai : (1) les prérequis (Docker installé et démarré, port libre) ; (2) le résultat attendu des commandes, pour savoir si le lancement avait réussi ; (3) le délai de démarrage, car un `curl` lancé juste après `docker run` échoue (`Connection reset by peer`) ; (4) la conduite à tenir en cas de port déjà utilisé (`port is already allocated`). J'ai ajouté au README les sections « Prérequis », « Résultat attendu » et « Dépannage ». Limite : un test réalisé par moi est moins fiable que celui d'une personne extérieure, qui n'a pas connaissance du projet.
 
 ## Tableau d'observation du cache (seul `app.py` modifié)
 
