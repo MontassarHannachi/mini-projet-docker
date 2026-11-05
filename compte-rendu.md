@@ -20,7 +20,7 @@ Projet réalisé seul (sans binôme).
 
 **Étape 6.** Un tag de version précise (`1.0.0`) doit rester immuable : des déploiements et des collègues comptent sur lui pour obtenir exactement la même image. Seuls les alias (`1.0`) sont faits pour être déplacés.
 
-**Étape 7.** Informations manquantes lors du premier essai : TEXTE_A_REMPLACER
+**Étape 7.** Informations manquantes lors du premier essai : à compléter après le test du README par une personne extérieure.
 
 ## Tableau d'observation du cache (seul `app.py` modifié)
 

@@ -13,6 +13,11 @@ Le message se configure par une variable d'environnement, sans reconstruire l'im
 | `1.0.1` | Ajoute la route `/health` |
 | `1.0` | Alias qui suit la dernière version 1.0.x (actuellement 1.0.1) |
 
+## Prérequis
+
+- Docker installé et démarré (`docker --version`)
+- Un port libre sur la machine (8082 dans les exemples)
+
 ## Lancer l'application (image publiée uniquement)
 
     docker run -d --name monapp -p 8082:5000 \
@@ -68,3 +73,14 @@ Remplacer `8082` par un autre port si celui-ci est déjà utilisé sur votre mac
 
 ### 6. Connexion à Docker Hub
 ![docker login](docs/06-docker-login.png)
+
+## Résultat attendu
+
+- `curl http://localhost:8082` affiche le message défini par `APP_MESSAGE` (ici `Bonjour !`).
+- `curl http://localhost:8082/health` affiche `OK`.
+
+## Dépannage
+
+- Le premier `curl` échoue juste après `docker run` : attendre 2 à 3 secondes, le temps que l'application démarre.
+- `port is already allocated` : choisir un autre port, par exemple `-p 8090:5000`.
+- Voir les journaux : `docker logs monapp`.
