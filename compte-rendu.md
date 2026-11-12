@@ -33,7 +33,7 @@ La valeur `268435456` octets correspond à 256 Mio (256 × 1024 × 1024 octets).
 
 La valeur `NanoCpus=500000000` correspond à une limite de 0,5 CPU.
 
-La commande `docker stats --no-stream demo-app` a affiché une consommation mémoire de `21.59MiB / 256MiB` au moment de la capture.
+La commande `docker stats --no-stream monapp` a affiché une consommation mémoire de `21.59MiB / 256MiB` au moment de la capture.
 
 Cette valeur représente une mesure instantanée de l'utilisation mémoire et non la limite configurée.
 
