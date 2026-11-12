@@ -60,6 +60,4 @@ Puis tester :
 
 ## Dépannage
 
-- Le premier `curl` échoue juste après `docker run` : attendre 2 à 3 secondes, le temps que l'application démarre.
-- `port is already allocated` : choisir un autre port, par exemple `-p 8090:5000`.
 - Voir les journaux : `docker logs monapp`.
