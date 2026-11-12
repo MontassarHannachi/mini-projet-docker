@@ -30,7 +30,6 @@ Puis tester :
     curl http://localhost:8082
     curl http://localhost:8082/health
 
-Remplacer `8082` par un autre port si celui-ci est déjà utilisé sur votre machine.
 
 ## Variables d'environnement
 
