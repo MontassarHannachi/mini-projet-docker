@@ -61,3 +61,22 @@ Puis tester :
 ## Dépannage
 
 - Voir les journaux : `docker logs monapp`.
+## 10. Captures d'écran
+
+Les captures suivantes illustrent les principales étapes de réalisation, de construction et de vérification de l'application Docker.
+
+### 10.1 Configuration Docker
+
+![Dockerfile](docs/readme/01-dockerfile.png)
+
+### 10.2 Construction de l'image Docker
+
+![Docker Build](docs/readme/02-docker-build.png)
+
+### 10.3 Exécution et tests HTTP
+
+![Tests HTTP](docs/readme/03-tests-http.png)
+
+### 10.4 Publication sur Docker Hub
+
+![Docker Hub](docs/readme/04-docker-hub.png)
